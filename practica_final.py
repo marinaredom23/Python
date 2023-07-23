@@ -7,7 +7,7 @@ N=int(input("Por favor ingrese el tamaño de la matriz:  "))
 #Creamos una matriz vacia
 matriz=[]
 
-#Usamos un for para crear  las filas
+#Usamos un for para crear las filas
 for i in range (N):
     #Creamos una fila vacia
     fila= []
@@ -17,6 +17,7 @@ for i in range (N):
         fila.append(random.randint(0,9))
     #Añadimos los datos a la matriz    
     matriz.append(fila)
+    
 #Imprimimos las matriz
 for fila in matriz:
     print(fila)
