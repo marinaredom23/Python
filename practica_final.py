@@ -7,6 +7,10 @@ import random
 #Pedimos al usuario que ingrese por teclado el tamaño de la matriz
 N=int(input("Por favor ingrese el tamaño de la matriz:  "))
 
+def num_valido (N):
+   try:
+      
+
 #Creamos una matriz vacia
 matriz=[]
 
@@ -44,7 +48,7 @@ for i in range(filas):
 #Hacemos un salto de línea para que no se vea muy junto
 print()
 
-#Muestro la matriz con la suma de las filas 
+#Mostramos la matriz con la suma de las filas 
 mostrar_matriz(matriz)
 
 #Hacemos un salto de línea para que no se vea muy junto
